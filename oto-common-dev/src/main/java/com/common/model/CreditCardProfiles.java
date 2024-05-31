@@ -1,0 +1,14 @@
+package com.common.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CreditCardProfiles {
+    private String cardNumber;
+    private String cardType;
+    private String expirationDate;
+}
